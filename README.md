@@ -5,6 +5,11 @@ What it provides?\
 4.) Suitable for large scale deployments (Currently single node)\
 5.) More features coming soon...
 
+
+
+How to configure with 4 nodes?\
+1.) Configure your DHCP server\
+
       Following one shows some features:
       
       
