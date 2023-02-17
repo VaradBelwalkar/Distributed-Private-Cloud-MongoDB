@@ -1,0 +1,52 @@
+
+
+
+User document structure in MongoDB
+
+
+documentData
+
+{
+"username": someusername 
+"totalOwnedContainers": 10 
+"containerInfo":    {
+                        "firstcontainer_8888":   {
+                                                "containerID": 44543
+                                                "port": 8888
+                                             }
+
+
+                        "secondcontainer_3345":   {
+                                                "containerID": 4039
+                                                "port": 3345
+                                             }
+
+
+
+                        "thirdcontainer_23580":   {
+                                                "containerID": 340534
+                                                "port": 23580
+                                             }
+
+                    }
+
+"storage":           {
+
+                  "file 1":    {
+                                 "type":"file"
+                                 "bytes":"bytes"
+                               }
+
+                  "file 2":    {
+                                 "type":"file"
+                                 "bytes":"bytes"                                 
+                               }
+
+                  "folder 1"  {
+                                 "type":"folder"
+                                 "bytes":"bytes"
+                              }
+
+
+
+}
